@@ -1,0 +1,108 @@
+{
+  "page": { "title": "Administraatori Paneel", "subtitle": "Süsteemi seadistamine ja haldamine" },
+  "nav": {
+    "dashboard": "Ülevaade",
+    "validationRules": "Valideerimisreeglid",
+    "users": "Kasutajahaldus",
+    "exceptions": "Erandite Logi",
+    "workflow": "Töövoo Seaded",
+    "settings": "Süsteemi Seaded"
+  },
+  "stats": {
+    "totalMerchants": "Kaupmehi Kokku",
+    "totalValidations": "Valideerimisi Kokku",
+    "totalAudits": "Auditeid Kokku",
+    "openExceptions": "Avatud Erandid",
+    "criticalExceptions": "Kriitilised (P1)"
+  },
+  "validationRules": {
+    "title": "Valideerimisreeglite Seadistamine",
+    "subtitle": "Seadista Eellepingu Valideerimise Kõvapiirang (DT-001)",
+    "confidenceThreshold": "AI Kindluslävi (%)",
+    "confidenceHelp": "Alla selle läve ekstraktsioonid suunatakse Sales Opsile käsitsi ülevaatamiseks",
+    "mandatoryFields": "Kohustuslikud Väljad",
+    "mandatoryHelp": "Need väljad peavad olema igas AI ekstraktsioonis",
+    "minJustificationChars": "Põhjenduse Minimaalne Tähemärkide Arv",
+    "salesOpsSlaHours": "Sales Ops SLA (tundides)",
+    "notes": "Märkused",
+    "saved": "Reeglid salvestatud",
+    "addField": "Lisa Väli",
+    "removeField": "Eemalda"
+  },
+  "users": {
+    "title": "Kasutajahaldus",
+    "addUser": "Lisa Kasutaja",
+    "name": "Nimi",
+    "email": "E-post",
+    "role": "Roll",
+    "team": "Meeskond",
+    "region": "Regioon",
+    "status": "Staatus",
+    "active": "Aktiivne",
+    "inactive": "Passiivne",
+    "deactivate": "Deaktiveeri",
+    "edit": "Muuda",
+    "actions": "Toimingud",
+    "noUsers": "Kasutajaid ei leitud",
+    "createSuccess": "Kasutaja edukalt loodud",
+    "deactivateConfirm": "Deaktiveerida see kasutaja?"
+  },
+  "exceptions": {
+    "title": "Erandite Logi",
+    "severity": "Tõsidus",
+    "status": "Staatus",
+    "type": "Tüüp",
+    "merchant": "Kaupmees",
+    "message": "Veateade",
+    "createdAt": "Loodud",
+    "resolveBtn": "Lahenda",
+    "resolutionNotes": "Lahenduse Märkused",
+    "noExceptions": "Erandeid ei leitud",
+    "filters": { "all": "Kõik", "open": "Avatud", "resolved": "Lahendatud" }
+  },
+  "workflow": {
+    "title": "Töövoo Seadistamine",
+    "subtitle": "Luba või keela töövoo automatiseerimise sammud",
+    "steps": {
+      "autoValidation": "Käivita valideerimine automaatselt pärast transkriptsiooni üleslaadimist",
+      "slackNotifications": "Slack teavitused ebaõnnestunud valideerimiste korral",
+      "emailNotifications": "E-posti teavitused Sales Ops järjekorra jaoks",
+      "dailyReports": "Päevased valideerimise kokkuvõtte aruanded",
+      "autoAudit": "Käivita lepingu audit automaatselt pärast üleslaadimist"
+    },
+    "saved": "Töövoo seaded salvestatud"
+  },
+  "settings": {
+    "title": "Süsteemi Seaded",
+    "slack": "Slacki Seadistamine",
+    "slackWebhook": "Slacki Veebikonksu URL",
+    "slackChannel": "Slacki Kanal",
+    "email": "E-posti (SMTP) Seadistamine",
+    "smtpHost": "SMTP Host",
+    "smtpPort": "SMTP Port",
+    "smtpUser": "SMTP Kasutajanimi",
+    "smtpFrom": "Saatja Aadress",
+    "ai": "AI Seadistamine",
+    "manusApiUrl": "Manus API URL",
+    "saved": "Seaded salvestatud"
+  },
+  "notifications": {
+    "title": "Teavituste Keskus",
+    "markRead": "Märgi loetuks",
+    "markAllRead": "Märgi kõik loetuks",
+    "noNotifications": "Teavitusi pole",
+    "unreadOnly": "Ainult lugemata",
+    "types": {
+      "VALIDATION_FAILED": "Valideerimine Ebaõnnestus",
+      "VALIDATION_PASSED": "Valideerimine Läbitud",
+      "MANUAL_REVIEW_REQUIRED": "Käsitsi Ülevaatus Vajalik",
+      "OVERRIDE_REQUESTED": "Tühistamine Taotletud",
+      "OVERRIDE_APPROVED": "Tühistamine Kinnitatud",
+      "AUDIT_DISCREPANCY": "Auditi Lahknevus",
+      "AUDIT_RESOLVED": "Audit Lahendatud",
+      "PROFILE_CREATED": "Profiil Loodud",
+      "PROFILE_UPDATED": "Profiil Uuendatud",
+      "SYSTEM_ALERT": "Süsteemi Hoiatus"
+    }
+  }
+}

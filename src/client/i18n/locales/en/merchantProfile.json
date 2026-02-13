@@ -1,0 +1,128 @@
+{
+  "page": {
+    "title": "Merchant Profiles",
+    "subtitle": "Profile management, versioning & access control",
+    "detailTitle": "Merchant Profile Detail",
+    "backToList": "Back to Profiles"
+  },
+  "dashboard": {
+    "createProfile": "Create Profile",
+    "noProfiles": "No merchant profiles found",
+    "total": "total"
+  },
+  "stats": {
+    "totalProfiles": "Total Profiles",
+    "currentVersions": "Current Versions",
+    "pendingReview": "Pending Review",
+    "avgConfidence": "Avg. Confidence"
+  },
+  "filters": {
+    "campaignType": "Campaign type...",
+    "allSensitivities": "All sensitivities",
+    "allReviewStatus": "All review statuses",
+    "pendingReview": "Pending review",
+    "reviewed": "Reviewed"
+  },
+  "sort": {
+    "newestFirst": "Newest first",
+    "oldestFirst": "Oldest first",
+    "highestConfidence": "Highest confidence",
+    "lowestConfidence": "Lowest confidence",
+    "latestVersion": "Latest version"
+  },
+  "card": {
+    "merchantId": "Merchant ID",
+    "confidence": "Confidence",
+    "reviewRequired": "Review Required",
+    "viewDetails": "View details"
+  },
+  "fields": {
+    "commission": "Commission",
+    "contractLength": "Contract Length",
+    "campaignType": "Campaign Type",
+    "campaignDuration": "Campaign Duration",
+    "tabletIncluded": "Tablet Included",
+    "tabletModel": "Tablet Model",
+    "revenue": "Est. Revenue",
+    "employeeCount": "Employees",
+    "priceSensitivity": "Price Sensitivity",
+    "expectedVolume": "Expected Volume",
+    "competitors": "Competitors",
+    "merchantGoals": "Merchant Goals",
+    "expansionPlans": "Expansion Plans",
+    "ownerMotivations": "Owner Motivations",
+    "ownerConcerns": "Owner Concerns",
+    "decisionTriggers": "Decision Triggers",
+    "months": "months",
+    "weeks": "weeks"
+  },
+  "sections": {
+    "contractTerms": "Contract Terms",
+    "businessContext": "Business Context",
+    "ownerPsychology": "Owner Psychology"
+  },
+  "sensitivity": {
+    "low": "Low",
+    "medium": "Medium",
+    "high": "High"
+  },
+  "detail": {
+    "title": "Profile",
+    "version": "Version",
+    "currentVersion": "Current",
+    "historicVersion": "Historic",
+    "confidence": "AI Confidence",
+    "aiSummary": "AI Summary",
+    "reviewPending": "This profile requires human review before proceeding",
+    "markReviewed": "Mark as Reviewed",
+    "generateSummary": "Generate AI Summary",
+    "generating": "Generating...",
+    "edit": "Edit Profile",
+    "updateProfile": "Update Profile",
+    "notFound": "Profile not found"
+  },
+  "versionHistory": {
+    "title": "Version History",
+    "noVersions": "No version history",
+    "version": "Version",
+    "current": "Current",
+    "by": "by"
+  },
+  "activity": {
+    "title": "Activity Log",
+    "noActivity": "No activity recorded",
+    "types": {
+      "CREATED": "Profile Created",
+      "UPDATED": "Profile Updated",
+      "VERSION_SUPERSEDED": "Version Superseded",
+      "REVIEWED": "Human Review Completed",
+      "SUMMARY_GENERATED": "AI Summary Generated",
+      "FIELD_CORRECTED": "Field Corrected"
+    }
+  },
+  "form": {
+    "createTitle": "Create Merchant Profile",
+    "extractionId": "AI Extraction ID",
+    "extractionIdHint": "The ID of the AI extraction to build this profile from",
+    "extractionIdRequired": "Extraction ID is required",
+    "sections": {
+      "contractTerms": "Contract Terms",
+      "businessContext": "Business Context",
+      "ownerPsychology": "Owner Psychology"
+    },
+    "selectOption": "Select",
+    "commaSeparated": "comma-separated",
+    "updateNotes": "Update Notes",
+    "updateNotesPlaceholder": "Describe what changed and why...",
+    "notesRequired": "Notes must be at least 10 characters",
+    "notesMinLength": "Minimum 10 characters required",
+    "saving": "Saving...",
+    "createProfile": "Create Profile",
+    "saveChanges": "Save Changes",
+    "cancel": "Cancel"
+  },
+  "common": {
+    "yes": "Yes",
+    "no": "No"
+  }
+}

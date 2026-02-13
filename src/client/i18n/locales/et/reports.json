@@ -1,0 +1,15 @@
+{
+  "title": "Valideerimise Aruanded",
+  "subtitle": "30 päeva valideerimise pipeline ülevaade",
+  "statusBreakdown": "Staatuse Jaotus",
+  "mostMissingFields": "Enamlevinud Puuduvad Väljad",
+  "dailyReport": { "title": "Tänane Aruanne" },
+  "stats": {
+    "total": "Valideerimisi Kokku",
+    "passed": "Läbitud",
+    "failed": "Ebaõnnestunud",
+    "manualReview": "Käsitsi Ülevaatus",
+    "overrides": "Tühistamised",
+    "avgConfidence": "Keskmine Kindlus"
+  }
+}

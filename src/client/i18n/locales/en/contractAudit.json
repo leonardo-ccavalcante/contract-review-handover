@@ -1,0 +1,134 @@
+{
+  "dashboard": {
+    "title": "Contract Audit Dashboard",
+    "subtitle": "AI-powered contract vs. call promise verification (DT-002)",
+    "loading": "Loading audits...",
+    "noAudits": "No audits found",
+    "filters": {
+      "status": "Status",
+      "allStatuses": "All Statuses",
+      "pending": "Pending",
+      "inProgress": "In Progress",
+      "resolved": "Resolved",
+      "acceptedRisk": "Accepted Risk",
+      "merchant": "Merchant",
+      "merchantPlaceholder": "Search by merchant ID"
+    },
+    "status": {
+      "pending": "Pending",
+      "in_progress": "In Progress",
+      "resolved": "Resolved",
+      "accepted_risk": "Accepted Risk"
+    },
+    "blocksGoLive": "Blocks Go-Live",
+    "discrepanciesFound": "Discrepancies",
+    "severity": {
+      "high": "High",
+      "medium": "Medium",
+      "low": "Low"
+    },
+    "noDiscrepancies": "No discrepancies - contract matches promises",
+    "more": "more",
+    "auditedAt": "Audited at"
+  },
+  "stats": {
+    "title": "Audit Statistics",
+    "lastDays": "Last {{days}} days",
+    "totalAudits": "Total Audits",
+    "passRate": "Pass Rate",
+    "withDiscrepancies": "With Discrepancies",
+    "bySeverity": "By Severity",
+    "high": "High",
+    "medium": "Medium",
+    "low": "Low",
+    "resolutionStatus": "Resolution Status",
+    "pending": "Pending",
+    "inProgress": "In Progress",
+    "resolved": "Resolved"
+  },
+  "upload": {
+    "title": "Upload Contract for Audit",
+    "subtitle": "AI will compare signed contract with verbal promises from sales call",
+    "contractId": "Contract ID",
+    "contractIdPlaceholder": "Enter contract ID (e.g., CNT-12345)",
+    "pdfFile": "Contract PDF",
+    "fileHelp": "Upload signed contract PDF (max 10MB)",
+    "startAudit": "Start Audit",
+    "analyzing": "Analyzing contract...",
+    "contractIdRequired": "Contract ID is required",
+    "fileRequired": "Please upload a PDF file",
+    "invalidFileType": "Only PDF files are allowed",
+    "fileTooLarge": "File size must be less than 10MB",
+    "uploadFailed": "Upload failed. Please try again.",
+    "howItWorks": "How It Works",
+    "step1": "1. Enter the contract ID from your CRM",
+    "step2": "2. Upload the signed PDF contract",
+    "step3": "3. AI extracts contract terms using OCR",
+    "step4": "4. System compares with verbal promises and generates discrepancy report"
+  },
+  "report": {
+    "title": "Contract Audit Report",
+    "auditId": "Audit ID",
+    "loading": "Loading audit report...",
+    "notFound": "Audit not found",
+    "status": {
+      "pending": "Pending",
+      "in_progress": "In Progress",
+      "resolved": "Resolved",
+      "accepted_risk": "Accepted Risk"
+    },
+    "blocksGoLive": "⛔ Blocks Go-Live",
+    "merchantDetails": "Merchant Details",
+    "merchantId": "Merchant ID",
+    "contractId": "Contract ID",
+    "auditDate": "Audit Date",
+    "auditedBy": "Audited By",
+    "summary": "Audit Summary",
+    "discrepanciesFound": "Discrepancies Found",
+    "noDiscrepancies": "✅ No discrepancies found. Contract matches verbal promises.",
+    "actionRequired": "Action Required",
+    "actions": {
+      "none": "None - Proceed to handover",
+      "sales_ops_review": "Sales Ops Review Required",
+      "urgent_escalation": "URGENT Escalation Required"
+    },
+    "sla": "SLA",
+    "hours": "hours",
+    "discrepanciesDetails": "Discrepancy Details",
+    "severity": {
+      "high": "🔴 High Severity",
+      "medium": "🟠 Medium Severity",
+      "low": "🟡 Low Severity"
+    },
+    "verbalPromise": "Verbal Promise (from call)",
+    "contractTerm": "Contract Term (from PDF)",
+    "impact": "Business Impact",
+    "resolutionDetails": "Resolution",
+    "resolvedBy": "Resolved By",
+    "resolvedAt": "Resolved At",
+    "resolutionNotes": "Resolution Notes"
+  },
+  "resolution": {
+    "title": "Update Resolution",
+    "status": "Resolution Status",
+    "inProgress": "In Progress",
+    "resolved": "Resolved",
+    "acceptedRisk": "Accepted Risk",
+    "notes": "Resolution Notes",
+    "notesPlaceholder": "Describe how this discrepancy was resolved (minimum 20 characters)...",
+    "notesHelp": "Minimum 20 characters required",
+    "notesTooShort": "Resolution notes must be at least 20 characters",
+    "submit": "Update Resolution",
+    "submitting": "Submitting...",
+    "updateSuccess": "Resolution updated successfully",
+    "updateFailed": "Failed to update resolution"
+  },
+  "fields": {
+    "commission": "Commission %",
+    "campaign_type": "Campaign Type",
+    "campaign_duration": "Campaign Duration",
+    "tablet_included": "Tablet Included",
+    "tablet_model": "Tablet Model",
+    "contract_length": "Contract Length"
+  }
+}

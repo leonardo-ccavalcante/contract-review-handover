@@ -1,0 +1,51 @@
+{
+  "app": {
+    "title": "Validación de Comercios Bolt",
+    "subtitle": "Sistema de Validación Pre-Contrato"
+  },
+  "navigation": {
+    "dashboard": "Panel",
+    "queue": "Cola de Validación",
+    "manualReview": "Revisión Manual",
+    "contractAudit": "Auditoría de Contrato",
+    "merchantProfiles": "Perfiles de Comercio",
+    "reports": "Informes",
+    "settings": "Configuración",
+    "upload": "Subir",
+    "admin": "Admin"
+  },
+  "actions": {
+    "save": "Guardar",
+    "cancel": "Cancelar",
+    "submit": "Enviar",
+    "approve": "Aprobar",
+    "reject": "Rechazar",
+    "override": "Anular",
+    "review": "Revisar",
+    "close": "Cerrar",
+    "refresh": "Actualizar",
+    "export": "Exportar",
+    "viewDetails": "Ver Detalles"
+  },
+  "common": {
+    "loading": "Cargando...",
+    "error": "Error",
+    "success": "Éxito",
+    "warning": "Advertencia",
+    "info": "Información",
+    "noData": "No hay datos disponibles",
+    "searchPlaceholder": "Buscar...",
+    "filterBy": "Filtrar por",
+    "sortBy": "Ordenar por",
+    "date": "Fecha",
+    "status": "Estado",
+    "merchant": "Comercio",
+    "confidence": "Confianza"
+  },
+  "language": {
+    "select": "Seleccionar Idioma",
+    "english": "English",
+    "spanish": "Español",
+    "estonian": "Eesti"
+  }
+}

@@ -1,0 +1,128 @@
+{
+  "page": {
+    "title": "Kaupmeeste Profiilid",
+    "subtitle": "Profiilide haldus, versioonid ja juurdepääsu kontroll",
+    "detailTitle": "Kaupmehe Profiili Detail",
+    "backToList": "Tagasi Nimekirja"
+  },
+  "dashboard": {
+    "createProfile": "Loo Profiil",
+    "noProfiles": "Kaupmeeste profiile ei leitud",
+    "total": "kokku"
+  },
+  "stats": {
+    "totalProfiles": "Profiile Kokku",
+    "currentVersions": "Praegused Versioonid",
+    "pendingReview": "Ootab Ülevaatust",
+    "avgConfidence": "Keskim. Kindlus"
+  },
+  "filters": {
+    "campaignType": "Kampaania tüüp...",
+    "allSensitivities": "Kõik tundlikkused",
+    "allReviewStatus": "Kõik ülevaatuse staatused",
+    "pendingReview": "Ootab ülevaatust",
+    "reviewed": "Üle vaadatud"
+  },
+  "sort": {
+    "newestFirst": "Uusimad ees",
+    "oldestFirst": "Vanimad ees",
+    "highestConfidence": "Kõrgeim kindlus",
+    "lowestConfidence": "Madalaim kindlus",
+    "latestVersion": "Viimane versioon"
+  },
+  "card": {
+    "merchantId": "Kaupmehe ID",
+    "confidence": "Kindlus",
+    "reviewRequired": "Ülevaatus Vajalik",
+    "viewDetails": "Vaata üksikasju"
+  },
+  "fields": {
+    "commission": "Komisjon",
+    "contractLength": "Lepingu Kestus",
+    "campaignType": "Kampaania Tüüp",
+    "campaignDuration": "Kampaania Kestus",
+    "tabletIncluded": "Tahvelarvuti Kaasatud",
+    "tabletModel": "Tahvelarvuti Mudel",
+    "revenue": "Hinnanguline Tulu",
+    "employeeCount": "Töötajad",
+    "priceSensitivity": "Hinnatundlikkus",
+    "expectedVolume": "Oodatav Maht",
+    "competitors": "Konkurendid",
+    "merchantGoals": "Kaupmehe Eesmärgid",
+    "expansionPlans": "Laienemisplaanid",
+    "ownerMotivations": "Omaniku Motivatsioonid",
+    "ownerConcerns": "Omaniku Mured",
+    "decisionTriggers": "Otsuse Tegurid",
+    "months": "kuud",
+    "weeks": "nädalat"
+  },
+  "sections": {
+    "contractTerms": "Lepingutingimused",
+    "businessContext": "Ärikontekst",
+    "ownerPsychology": "Omaniku Psühholoogia"
+  },
+  "sensitivity": {
+    "low": "Madal",
+    "medium": "Keskmine",
+    "high": "Kõrge"
+  },
+  "detail": {
+    "title": "Profiil",
+    "version": "Versioon",
+    "currentVersion": "Praegune",
+    "historicVersion": "Ajalooline",
+    "confidence": "AI Kindlus",
+    "aiSummary": "AI Kokkuvõte",
+    "reviewPending": "See profiil vajab inimese ülevaatust enne jätkamist",
+    "markReviewed": "Märgi Üle Vaadatuks",
+    "generateSummary": "Genereeri AI Kokkuvõte",
+    "generating": "Genereerimine...",
+    "edit": "Muuda Profiili",
+    "updateProfile": "Uuenda Profiili",
+    "notFound": "Profiili ei leitud"
+  },
+  "versionHistory": {
+    "title": "Versiooniajalugu",
+    "noVersions": "Versiooniajalugu puudub",
+    "version": "Versioon",
+    "current": "Praegune",
+    "by": "poolt"
+  },
+  "activity": {
+    "title": "Tegevuslogi",
+    "noActivity": "Tegevusi ei ole registreeritud",
+    "types": {
+      "CREATED": "Profiil Loodud",
+      "UPDATED": "Profiil Uuendatud",
+      "VERSION_SUPERSEDED": "Versioon Asendatud",
+      "REVIEWED": "Inimese Ülevaatus Lõpetatud",
+      "SUMMARY_GENERATED": "AI Kokkuvõte Genereeritud",
+      "FIELD_CORRECTED": "Väli Parandatud"
+    }
+  },
+  "form": {
+    "createTitle": "Loo Kaupmehe Profiil",
+    "extractionId": "AI Ekstraktsiooni ID",
+    "extractionIdHint": "AI ekstraktsiooni ID, millest see profiil luua",
+    "extractionIdRequired": "Ekstraktsiooni ID on kohustuslik",
+    "sections": {
+      "contractTerms": "Lepingutingimused",
+      "businessContext": "Ärikontekst",
+      "ownerPsychology": "Omaniku Psühholoogia"
+    },
+    "selectOption": "Vali",
+    "commaSeparated": "komaga eraldatult",
+    "updateNotes": "Uuenduse Märkmed",
+    "updateNotesPlaceholder": "Kirjeldage, mis muutus ja miks...",
+    "notesRequired": "Märkmed peavad olema vähemalt 10 tähemärki",
+    "notesMinLength": "Nõutav minimaalselt 10 tähemärki",
+    "saving": "Salvestamine...",
+    "createProfile": "Loo Profiil",
+    "saveChanges": "Salvesta Muudatused",
+    "cancel": "Tühista"
+  },
+  "common": {
+    "yes": "Jah",
+    "no": "Ei"
+  }
+}

@@ -1,0 +1,134 @@
+{
+  "dashboard": {
+    "title": "Panel de Auditoría de Contratos",
+    "subtitle": "Verificación de contrato vs. promesas de llamada con IA (DT-002)",
+    "loading": "Cargando auditorías...",
+    "noAudits": "No se encontraron auditorías",
+    "filters": {
+      "status": "Estado",
+      "allStatuses": "Todos los Estados",
+      "pending": "Pendiente",
+      "inProgress": "En Progreso",
+      "resolved": "Resuelto",
+      "acceptedRisk": "Riesgo Aceptado",
+      "merchant": "Comercio",
+      "merchantPlaceholder": "Buscar por ID de comercio"
+    },
+    "status": {
+      "pending": "Pendiente",
+      "in_progress": "En Progreso",
+      "resolved": "Resuelto",
+      "accepted_risk": "Riesgo Aceptado"
+    },
+    "blocksGoLive": "Bloquea Activación",
+    "discrepanciesFound": "Discrepancias",
+    "severity": {
+      "high": "Alta",
+      "medium": "Media",
+      "low": "Baja"
+    },
+    "noDiscrepancies": "Sin discrepancias - contrato coincide con promesas",
+    "more": "más",
+    "auditedAt": "Auditado en"
+  },
+  "stats": {
+    "title": "Estadísticas de Auditoría",
+    "lastDays": "Últimos {{days}} días",
+    "totalAudits": "Auditorías Totales",
+    "passRate": "Tasa de Aprobación",
+    "withDiscrepancies": "Con Discrepancias",
+    "bySeverity": "Por Severidad",
+    "high": "Alta",
+    "medium": "Media",
+    "low": "Baja",
+    "resolutionStatus": "Estado de Resolución",
+    "pending": "Pendiente",
+    "inProgress": "En Progreso",
+    "resolved": "Resuelto"
+  },
+  "upload": {
+    "title": "Cargar Contrato para Auditoría",
+    "subtitle": "La IA comparará el contrato firmado con las promesas verbales de la llamada de ventas",
+    "contractId": "ID de Contrato",
+    "contractIdPlaceholder": "Ingrese ID de contrato (ej., CNT-12345)",
+    "pdfFile": "PDF del Contrato",
+    "fileHelp": "Cargue el PDF del contrato firmado (máx. 10MB)",
+    "startAudit": "Iniciar Auditoría",
+    "analyzing": "Analizando contrato...",
+    "contractIdRequired": "Se requiere ID de contrato",
+    "fileRequired": "Por favor cargue un archivo PDF",
+    "invalidFileType": "Solo se permiten archivos PDF",
+    "fileTooLarge": "El tamaño del archivo debe ser menor a 10MB",
+    "uploadFailed": "Carga fallida. Por favor intente nuevamente.",
+    "howItWorks": "Cómo Funciona",
+    "step1": "1. Ingrese el ID del contrato de su CRM",
+    "step2": "2. Cargue el contrato PDF firmado",
+    "step3": "3. La IA extrae términos del contrato usando OCR",
+    "step4": "4. El sistema compara con promesas verbales y genera reporte de discrepancias"
+  },
+  "report": {
+    "title": "Reporte de Auditoría de Contrato",
+    "auditId": "ID de Auditoría",
+    "loading": "Cargando reporte de auditoría...",
+    "notFound": "Auditoría no encontrada",
+    "status": {
+      "pending": "Pendiente",
+      "in_progress": "En Progreso",
+      "resolved": "Resuelto",
+      "accepted_risk": "Riesgo Aceptado"
+    },
+    "blocksGoLive": "⛔ Bloquea Activación",
+    "merchantDetails": "Detalles del Comercio",
+    "merchantId": "ID de Comercio",
+    "contractId": "ID de Contrato",
+    "auditDate": "Fecha de Auditoría",
+    "auditedBy": "Auditado Por",
+    "summary": "Resumen de Auditoría",
+    "discrepanciesFound": "Discrepancias Encontradas",
+    "noDiscrepancies": "✅ No se encontraron discrepancias. El contrato coincide con las promesas verbales.",
+    "actionRequired": "Acción Requerida",
+    "actions": {
+      "none": "Ninguna - Proceder con traspaso",
+      "sales_ops_review": "Revisión de Ops de Ventas Requerida",
+      "urgent_escalation": "Escalamiento URGENTE Requerido"
+    },
+    "sla": "SLA",
+    "hours": "horas",
+    "discrepanciesDetails": "Detalles de Discrepancias",
+    "severity": {
+      "high": "🔴 Severidad Alta",
+      "medium": "🟠 Severidad Media",
+      "low": "🟡 Severidad Baja"
+    },
+    "verbalPromise": "Promesa Verbal (de llamada)",
+    "contractTerm": "Término de Contrato (de PDF)",
+    "impact": "Impacto Empresarial",
+    "resolutionDetails": "Resolución",
+    "resolvedBy": "Resuelto Por",
+    "resolvedAt": "Resuelto En",
+    "resolutionNotes": "Notas de Resolución"
+  },
+  "resolution": {
+    "title": "Actualizar Resolución",
+    "status": "Estado de Resolución",
+    "inProgress": "En Progreso",
+    "resolved": "Resuelto",
+    "acceptedRisk": "Riesgo Aceptado",
+    "notes": "Notas de Resolución",
+    "notesPlaceholder": "Describa cómo se resolvió esta discrepancia (mínimo 20 caracteres)...",
+    "notesHelp": "Se requieren mínimo 20 caracteres",
+    "notesTooShort": "Las notas de resolución deben tener al menos 20 caracteres",
+    "submit": "Actualizar Resolución",
+    "submitting": "Enviando...",
+    "updateSuccess": "Resolución actualizada exitosamente",
+    "updateFailed": "Error al actualizar resolución"
+  },
+  "fields": {
+    "commission": "Comisión %",
+    "campaign_type": "Tipo de Campaña",
+    "campaign_duration": "Duración de Campaña",
+    "tablet_included": "Tablet Incluida",
+    "tablet_model": "Modelo de Tablet",
+    "contract_length": "Duración del Contrato"
+  }
+}

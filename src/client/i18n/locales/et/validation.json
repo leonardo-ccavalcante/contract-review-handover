@@ -1,0 +1,76 @@
+{
+  "hardGate": {
+    "title": "Eellepingu Valideerimine",
+    "subtitle": "Kõva Värav #1 - DT-001",
+    "status": {
+      "PASS": "Valideerimine Läbitud",
+      "FAIL": "Valideerimine Ebaõnnestus",
+      "MANUAL_REVIEW": "Nõuab Käsitsi Ülevaatust",
+      "OVERRIDE": "Juhataja Poolt Tühistatud"
+    },
+    "statusDescription": {
+      "PASS": "Kõik valideerimised läbitud. Valmis lepingu loomiseks.",
+      "FAIL": "Valideerimine ebaõnnestus puuduvate kohustuslike väljade tõttu. Ei saa jätkata.",
+      "MANUAL_REVIEW": "AI kindlus alla läve. Nõutav müügiosakonna ülevaatus.",
+      "OVERRIDE": "Valideerimise tühistas volitatud juht."
+    },
+    "mandatoryFields": {
+      "title": "Kohustuslike Väljade Kontroll",
+      "allPresent": "Kõik kohustuslikud väljad on olemas",
+      "missing": "Puuduvad Nõutavad Väljad",
+      "merchant_name": "Kaupmehe Nimi",
+      "commission_percentage": "Komisjoni Protsent",
+      "campaign_type": "Kampaania Tüüp",
+      "campaign_duration": "Kampaania Kestus",
+      "tablet_included": "Tahvelarvuti Kaasatud",
+      "contract_length": "Lepingu Kestus",
+      "merchant_goals": "Kaupmehe Eesmärgid (vähemalt 1)",
+      "competitors": "Konkurendid (vähemalt 1)"
+    },
+    "confidence": {
+      "title": "AI Kindluse Skoor",
+      "threshold": "Lävi",
+      "actual": "Tegelik Skoor",
+      "meetsThreshold": "Vastab Lävele",
+      "belowThreshold": "Alla Läve",
+      "lowConfidenceFields": "Madala Kindlusega Väljad",
+      "noLowConfidenceFields": "Kõigil väljadel on kõrge kindlus"
+    },
+    "nextAction": {
+      "PROCEED_TO_CONTRACT": "Jätka Lepingu Loomisega",
+      "ROUTE_TO_SALES_OPS": "Suuna Müügiosakonda",
+      "BLOCK": "Blokeeritud - Ei Saa Jätkata",
+      "GENERATE_RETRY_INTEL": "Loo Korduskatsete Info"
+    },
+    "actions": {
+      "executeValidation": "Käivita Valideerimine",
+      "override": "Tühista Valideerimine",
+      "review": "Esita Ülevaatuseks",
+      "approve": "Kinnita ja Jätka",
+      "reject": "Keeldu"
+    },
+    "override": {
+      "title": "Tühista Valideerimine",
+      "subtitle": "Müügijuhi Tühistamine",
+      "justificationLabel": "Põhjendus (vähemalt 50 tähemärki)",
+      "justificationPlaceholder": "Palun esitage üksikasjalik põhjendus selle valideerimise tühistamiseks...",
+      "justificationRequired": "Põhjendus on nõutud",
+      "justificationTooShort": "Põhjendus peab olema vähemalt 50 tähemärki",
+      "confirmOverride": "Kas olete kindel, et soovite seda valideerimist tühistada?",
+      "overrideSuccess": "Valideerimine edukalt tühistatud",
+      "overrideError": "Valideerimise tühistamine ebaõnnestus"
+    },
+    "notifications": {
+      "validationPassed": "Valideerimine edukalt läbitud",
+      "validationFailed": "Valideerimine ebaõnnestus: {{reason}}",
+      "routedToSalesOps": "Suunatud müügiosakonda käsitsi ülevaatuseks (SLA: 2 tundi)",
+      "overrideSubmitted": "Tühistamistaotlus edukalt esitatud",
+      "validationExecuted": "Valideerimine edukalt käivitatud"
+    },
+    "sla": {
+      "salesOps": "Müügiosakonna Ülevaatuse SLA: 2 tundi",
+      "overdue": "Tähtaja ületanud {{hours}} tundi",
+      "dueIn": "Tähtaeg {{hours}} tunni pärast"
+    }
+  }
+}

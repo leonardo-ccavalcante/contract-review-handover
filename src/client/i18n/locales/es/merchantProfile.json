@@ -1,0 +1,128 @@
+{
+  "page": {
+    "title": "Perfiles de Comercio",
+    "subtitle": "Gestión de perfiles, versiones y control de acceso",
+    "detailTitle": "Detalle del Perfil de Comercio",
+    "backToList": "Volver a la Lista"
+  },
+  "dashboard": {
+    "createProfile": "Crear Perfil",
+    "noProfiles": "No se encontraron perfiles de comercio",
+    "total": "total"
+  },
+  "stats": {
+    "totalProfiles": "Total de Perfiles",
+    "currentVersions": "Versiones Actuales",
+    "pendingReview": "Revisión Pendiente",
+    "avgConfidence": "Confianza Promedio"
+  },
+  "filters": {
+    "campaignType": "Tipo de campaña...",
+    "allSensitivities": "Todas las sensibilidades",
+    "allReviewStatus": "Todos los estados de revisión",
+    "pendingReview": "Revisión pendiente",
+    "reviewed": "Revisado"
+  },
+  "sort": {
+    "newestFirst": "Más reciente primero",
+    "oldestFirst": "Más antiguo primero",
+    "highestConfidence": "Mayor confianza",
+    "lowestConfidence": "Menor confianza",
+    "latestVersion": "Última versión"
+  },
+  "card": {
+    "merchantId": "ID del Comercio",
+    "confidence": "Confianza",
+    "reviewRequired": "Revisión Requerida",
+    "viewDetails": "Ver detalles"
+  },
+  "fields": {
+    "commission": "Comisión",
+    "contractLength": "Duración del Contrato",
+    "campaignType": "Tipo de Campaña",
+    "campaignDuration": "Duración de Campaña",
+    "tabletIncluded": "Tablet Incluida",
+    "tabletModel": "Modelo de Tablet",
+    "revenue": "Ingreso Estimado",
+    "employeeCount": "Empleados",
+    "priceSensitivity": "Sensibilidad al Precio",
+    "expectedVolume": "Volumen Esperado",
+    "competitors": "Competidores",
+    "merchantGoals": "Objetivos del Comercio",
+    "expansionPlans": "Planes de Expansión",
+    "ownerMotivations": "Motivaciones del Propietario",
+    "ownerConcerns": "Preocupaciones del Propietario",
+    "decisionTriggers": "Factores de Decisión",
+    "months": "meses",
+    "weeks": "semanas"
+  },
+  "sections": {
+    "contractTerms": "Términos del Contrato",
+    "businessContext": "Contexto Empresarial",
+    "ownerPsychology": "Psicología del Propietario"
+  },
+  "sensitivity": {
+    "low": "Baja",
+    "medium": "Media",
+    "high": "Alta"
+  },
+  "detail": {
+    "title": "Perfil",
+    "version": "Versión",
+    "currentVersion": "Actual",
+    "historicVersion": "Histórico",
+    "confidence": "Confianza IA",
+    "aiSummary": "Resumen IA",
+    "reviewPending": "Este perfil requiere revisión humana antes de continuar",
+    "markReviewed": "Marcar como Revisado",
+    "generateSummary": "Generar Resumen IA",
+    "generating": "Generando...",
+    "edit": "Editar Perfil",
+    "updateProfile": "Actualizar Perfil",
+    "notFound": "Perfil no encontrado"
+  },
+  "versionHistory": {
+    "title": "Historial de Versiones",
+    "noVersions": "Sin historial de versiones",
+    "version": "Versión",
+    "current": "Actual",
+    "by": "por"
+  },
+  "activity": {
+    "title": "Registro de Actividad",
+    "noActivity": "Sin actividad registrada",
+    "types": {
+      "CREATED": "Perfil Creado",
+      "UPDATED": "Perfil Actualizado",
+      "VERSION_SUPERSEDED": "Versión Reemplazada",
+      "REVIEWED": "Revisión Humana Completada",
+      "SUMMARY_GENERATED": "Resumen IA Generado",
+      "FIELD_CORRECTED": "Campo Corregido"
+    }
+  },
+  "form": {
+    "createTitle": "Crear Perfil de Comercio",
+    "extractionId": "ID de Extracción IA",
+    "extractionIdHint": "El ID de la extracción de IA para construir este perfil",
+    "extractionIdRequired": "El ID de extracción es obligatorio",
+    "sections": {
+      "contractTerms": "Términos del Contrato",
+      "businessContext": "Contexto Empresarial",
+      "ownerPsychology": "Psicología del Propietario"
+    },
+    "selectOption": "Seleccionar",
+    "commaSeparated": "separados por comas",
+    "updateNotes": "Notas de Actualización",
+    "updateNotesPlaceholder": "Describa qué cambió y por qué...",
+    "notesRequired": "Las notas deben tener al menos 10 caracteres",
+    "notesMinLength": "Mínimo 10 caracteres requeridos",
+    "saving": "Guardando...",
+    "createProfile": "Crear Perfil",
+    "saveChanges": "Guardar Cambios",
+    "cancel": "Cancelar"
+  },
+  "common": {
+    "yes": "Sí",
+    "no": "No"
+  }
+}

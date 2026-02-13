@@ -1,0 +1,108 @@
+{
+  "page": { "title": "Admin Panel", "subtitle": "System configuration and management" },
+  "nav": {
+    "dashboard": "Overview",
+    "validationRules": "Validation Rules",
+    "users": "User Management",
+    "exceptions": "Exception Log",
+    "workflow": "Workflow Config",
+    "settings": "System Settings"
+  },
+  "stats": {
+    "totalMerchants": "Total Merchants",
+    "totalValidations": "Total Validations",
+    "totalAudits": "Total Audits",
+    "openExceptions": "Open Exceptions",
+    "criticalExceptions": "Critical (P1)"
+  },
+  "validationRules": {
+    "title": "Validation Rules Configuration",
+    "subtitle": "Configure the Pre-Contract Validation Hard Gate (DT-001)",
+    "confidenceThreshold": "AI Confidence Threshold (%)",
+    "confidenceHelp": "Extractions below this score are routed to Sales Ops for manual review",
+    "mandatoryFields": "Mandatory Fields",
+    "mandatoryHelp": "These fields must be present in every AI extraction",
+    "minJustificationChars": "Override Justification Minimum Characters",
+    "salesOpsSlaHours": "Sales Ops SLA (hours)",
+    "notes": "Notes",
+    "saved": "Rules saved successfully",
+    "addField": "Add Field",
+    "removeField": "Remove"
+  },
+  "users": {
+    "title": "User Management",
+    "addUser": "Add User",
+    "name": "Name",
+    "email": "Email",
+    "role": "Role",
+    "team": "Team",
+    "region": "Region",
+    "status": "Status",
+    "active": "Active",
+    "inactive": "Inactive",
+    "deactivate": "Deactivate",
+    "edit": "Edit",
+    "actions": "Actions",
+    "noUsers": "No users found",
+    "createSuccess": "User created successfully",
+    "deactivateConfirm": "Deactivate this user?"
+  },
+  "exceptions": {
+    "title": "Exception Log",
+    "severity": "Severity",
+    "status": "Status",
+    "type": "Type",
+    "merchant": "Merchant",
+    "message": "Error Message",
+    "createdAt": "Created",
+    "resolveBtn": "Resolve",
+    "resolutionNotes": "Resolution Notes",
+    "noExceptions": "No exceptions found",
+    "filters": { "all": "All", "open": "Open", "resolved": "Resolved" }
+  },
+  "workflow": {
+    "title": "Workflow Configuration",
+    "subtitle": "Enable or disable workflow automation steps",
+    "steps": {
+      "autoValidation": "Auto-run validation after transcription upload",
+      "slackNotifications": "Slack notifications for failed validations",
+      "emailNotifications": "Email notifications for Sales Ops queue",
+      "dailyReports": "Daily validation summary reports",
+      "autoAudit": "Auto-run contract audit after upload"
+    },
+    "saved": "Workflow configuration saved"
+  },
+  "settings": {
+    "title": "System Settings",
+    "slack": "Slack Configuration",
+    "slackWebhook": "Slack Webhook URL",
+    "slackChannel": "Slack Channel",
+    "email": "Email (SMTP) Configuration",
+    "smtpHost": "SMTP Host",
+    "smtpPort": "SMTP Port",
+    "smtpUser": "SMTP Username",
+    "smtpFrom": "From Address",
+    "ai": "AI Configuration",
+    "manusApiUrl": "Manus API URL",
+    "saved": "Settings saved"
+  },
+  "notifications": {
+    "title": "Notification Center",
+    "markRead": "Mark as read",
+    "markAllRead": "Mark all as read",
+    "noNotifications": "No notifications",
+    "unreadOnly": "Unread only",
+    "types": {
+      "VALIDATION_FAILED": "Validation Failed",
+      "VALIDATION_PASSED": "Validation Passed",
+      "MANUAL_REVIEW_REQUIRED": "Manual Review Required",
+      "OVERRIDE_REQUESTED": "Override Requested",
+      "OVERRIDE_APPROVED": "Override Approved",
+      "AUDIT_DISCREPANCY": "Audit Discrepancy",
+      "AUDIT_RESOLVED": "Audit Resolved",
+      "PROFILE_CREATED": "Profile Created",
+      "PROFILE_UPDATED": "Profile Updated",
+      "SYSTEM_ALERT": "System Alert"
+    }
+  }
+}

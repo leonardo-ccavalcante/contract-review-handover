@@ -1,0 +1,15 @@
+{
+  "title": "Validation Reports",
+  "subtitle": "30-day validation pipeline overview",
+  "statusBreakdown": "Status Breakdown",
+  "mostMissingFields": "Most Common Missing Fields",
+  "dailyReport": { "title": "Today's Report" },
+  "stats": {
+    "total": "Total Validations",
+    "passed": "Passed",
+    "failed": "Failed",
+    "manualReview": "Manual Review",
+    "overrides": "Overrides",
+    "avgConfidence": "Avg Confidence"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "page": { "title": "Kontohalduri Töölaud", "subtitle": "Sinu kaupmehe pipeline ühel pilgul" },
+  "kpi": {
+    "totalMerchants": "Kaupmehi Kokku",
+    "pendingValidations": "Ootel Valideerimised",
+    "openAudits": "Avatud Auditid",
+    "profilesComplete": "Profiilid Täidetud",
+    "thisWeek": "sel nädalal",
+    "vsLastWeek": "vs eelmine nädal",
+    "complete": "täidetud"
+  },
+  "merchantList": {
+    "title": "Kaupmeeste Pipeline",
+    "searchPlaceholder": "Otsi kaupmehi...",
+    "columns": {
+      "merchant": "Kaupmees",
+      "status": "Staatus",
+      "segment": "Segment",
+      "city": "Linn",
+      "lastActivity": "Viimane Tegevus",
+      "actions": "Toimingud"
+    },
+    "status": {
+      "active": "Aktiivne",
+      "pending": "Ootel",
+      "blocked": "Blokeeritud",
+      "go_live": "Live"
+    },
+    "noMerchants": "Kaupmehi ei leitud",
+    "viewProfile": "Vaata Profiili",
+    "viewValidation": "Vaata Valideerimist"
+  },
+  "recentActivity": {
+    "title": "Hiljutine Tegevus",
+    "noActivity": "Hiljutist tegevust pole",
+    "viewAll": "Vaata kõiki"
+  },
+  "quickActions": {
+    "title": "Kiirtoimingud",
+    "uploadTranscription": "Laadi Transkriptsioon",
+    "uploadAudio": "Laadi Heli",
+    "uploadContract": "Laadi Leping",
+    "viewQueue": "Vaata Järjekorda"
+  }
+}

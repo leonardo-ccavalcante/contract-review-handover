@@ -1,0 +1,76 @@
+{
+  "hardGate": {
+    "title": "Validación Pre-Contrato",
+    "subtitle": "Puerta Dura #1 - DT-001",
+    "status": {
+      "PASS": "Validación Aprobada",
+      "FAIL": "Validación Fallida",
+      "MANUAL_REVIEW": "Requiere Revisión Manual",
+      "OVERRIDE": "Anulado por Gerente"
+    },
+    "statusDescription": {
+      "PASS": "Todas las validaciones aprobadas. Listo para generar contrato.",
+      "FAIL": "Validación fallida por campos requeridos faltantes. No puede proceder.",
+      "MANUAL_REVIEW": "Confianza de IA por debajo del umbral. Se requiere revisión de Operaciones de Ventas.",
+      "OVERRIDE": "La validación fue anulada por un gerente autorizado."
+    },
+    "mandatoryFields": {
+      "title": "Verificación de Campos Obligatorios",
+      "allPresent": "Todos los campos obligatorios están presentes",
+      "missing": "Campos Requeridos Faltantes",
+      "merchant_name": "Nombre del Comercio",
+      "commission_percentage": "Porcentaje de Comisión",
+      "campaign_type": "Tipo de Campaña",
+      "campaign_duration": "Duración de Campaña",
+      "tablet_included": "Tablet Incluida",
+      "contract_length": "Duración del Contrato",
+      "merchant_goals": "Objetivos del Comercio (al menos 1)",
+      "competitors": "Competidores (al menos 1)"
+    },
+    "confidence": {
+      "title": "Puntuación de Confianza de IA",
+      "threshold": "Umbral",
+      "actual": "Puntuación Real",
+      "meetsThreshold": "Cumple el Umbral",
+      "belowThreshold": "Por Debajo del Umbral",
+      "lowConfidenceFields": "Campos de Baja Confianza",
+      "noLowConfidenceFields": "Todos los campos tienen alta confianza"
+    },
+    "nextAction": {
+      "PROCEED_TO_CONTRACT": "Proceder a Generación de Contrato",
+      "ROUTE_TO_SALES_OPS": "Redirigir a Operaciones de Ventas",
+      "BLOCK": "Bloqueado - No Puede Proceder",
+      "GENERATE_RETRY_INTEL": "Generar Inteligencia de Reintento"
+    },
+    "actions": {
+      "executeValidation": "Ejecutar Validación",
+      "override": "Anular Validación",
+      "review": "Enviar para Revisión",
+      "approve": "Aprobar y Proceder",
+      "reject": "Rechazar"
+    },
+    "override": {
+      "title": "Anular Validación",
+      "subtitle": "Anulación de Gerente de Ventas",
+      "justificationLabel": "Justificación (mínimo 50 caracteres)",
+      "justificationPlaceholder": "Por favor proporcione una justificación detallada para anular esta validación...",
+      "justificationRequired": "Se requiere justificación",
+      "justificationTooShort": "La justificación debe tener al menos 50 caracteres",
+      "confirmOverride": "¿Está seguro de que desea anular esta validación?",
+      "overrideSuccess": "Validación anulada exitosamente",
+      "overrideError": "Error al anular validación"
+    },
+    "notifications": {
+      "validationPassed": "Validación aprobada exitosamente",
+      "validationFailed": "Validación fallida: {{reason}}",
+      "routedToSalesOps": "Redirigido a Operaciones de Ventas para revisión manual (SLA: 2 horas)",
+      "overrideSubmitted": "Solicitud de anulación enviada exitosamente",
+      "validationExecuted": "Validación ejecutada exitosamente"
+    },
+    "sla": {
+      "salesOps": "SLA de Revisión de Operaciones de Ventas: 2 horas",
+      "overdue": "Vencido por {{hours}} horas",
+      "dueIn": "Vence en {{hours}} horas"
+    }
+  }
+}

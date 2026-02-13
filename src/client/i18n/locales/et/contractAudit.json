@@ -1,0 +1,134 @@
+{
+  "dashboard": {
+    "title": "Lepingu Auditi Juhtpaneel",
+    "subtitle": "AI-põhine lepingu vs. kõne lubaduste kontrollimine (DT-002)",
+    "loading": "Auditite laadimine...",
+    "noAudits": "Auditeid ei leitud",
+    "filters": {
+      "status": "Staatus",
+      "allStatuses": "Kõik Staatused",
+      "pending": "Ootel",
+      "inProgress": "Pooleli",
+      "resolved": "Lahendatud",
+      "acceptedRisk": "Aktsepteeritud Risk",
+      "merchant": "Kaupmees",
+      "merchantPlaceholder": "Otsi kaupmehe ID järgi"
+    },
+    "status": {
+      "pending": "Ootel",
+      "in_progress": "Pooleli",
+      "resolved": "Lahendatud",
+      "accepted_risk": "Aktsepteeritud Risk"
+    },
+    "blocksGoLive": "Blokeerib Käivitamise",
+    "discrepanciesFound": "Lahknevused",
+    "severity": {
+      "high": "Kõrge",
+      "medium": "Keskmine",
+      "low": "Madal"
+    },
+    "noDiscrepancies": "Lahknevusi ei ole - leping vastab lubadustele",
+    "more": "veel",
+    "auditedAt": "Auditeeritud"
+  },
+  "stats": {
+    "title": "Auditi Statistika",
+    "lastDays": "Viimased {{days}} päeva",
+    "totalAudits": "Auditid Kokku",
+    "passRate": "Läbimise Määr",
+    "withDiscrepancies": "Lahknevustega",
+    "bySeverity": "Tõsiduse Järgi",
+    "high": "Kõrge",
+    "medium": "Keskmine",
+    "low": "Madal",
+    "resolutionStatus": "Lahendamise Staatus",
+    "pending": "Ootel",
+    "inProgress": "Pooleli",
+    "resolved": "Lahendatud"
+  },
+  "upload": {
+    "title": "Laadi Leping Auditiks Üles",
+    "subtitle": "AI võrdleb allkirjastatud lepingut müügikõne suuliste lubadustega",
+    "contractId": "Lepingu ID",
+    "contractIdPlaceholder": "Sisesta lepingu ID (nt CNT-12345)",
+    "pdfFile": "Lepingu PDF",
+    "fileHelp": "Laadi allkirjastatud lepingu PDF üles (max 10MB)",
+    "startAudit": "Alusta Auditit",
+    "analyzing": "Lepingu analüüsimine...",
+    "contractIdRequired": "Lepingu ID on kohustuslik",
+    "fileRequired": "Palun laadi PDF fail üles",
+    "invalidFileType": "Lubatud on ainult PDF failid",
+    "fileTooLarge": "Faili suurus peab olema alla 10MB",
+    "uploadFailed": "Üleslaadimine ebaõnnestus. Palun proovi uuesti.",
+    "howItWorks": "Kuidas See Töötab",
+    "step1": "1. Sisesta lepingu ID oma CRM-ist",
+    "step2": "2. Laadi allkirjastatud PDF leping üles",
+    "step3": "3. AI ekstrakteerib lepingu tingimused kasutades OCR-i",
+    "step4": "4. Süsteem võrdleb suuliste lubadustega ja genereerib lahknevuste raporti"
+  },
+  "report": {
+    "title": "Lepingu Auditi Raport",
+    "auditId": "Auditi ID",
+    "loading": "Auditi raporti laadimine...",
+    "notFound": "Auditit ei leitud",
+    "status": {
+      "pending": "Ootel",
+      "in_progress": "Pooleli",
+      "resolved": "Lahendatud",
+      "accepted_risk": "Aktsepteeritud Risk"
+    },
+    "blocksGoLive": "⛔ Blokeerib Käivitamise",
+    "merchantDetails": "Kaupmehe Andmed",
+    "merchantId": "Kaupmehe ID",
+    "contractId": "Lepingu ID",
+    "auditDate": "Auditi Kuupäev",
+    "auditedBy": "Auditeeris",
+    "summary": "Auditi Kokkuvõte",
+    "discrepanciesFound": "Lahknevusi Leitud",
+    "noDiscrepancies": "✅ Lahknevusi ei leitud. Leping vastab suulistele lubadustele.",
+    "actionRequired": "Vajalik Tegevus",
+    "actions": {
+      "none": "Puudub - Jätka üleandmisega",
+      "sales_ops_review": "Müügi Ops Ülevaatus Vajalik",
+      "urgent_escalation": "KIIRELOOMULINE Eskalatsioon Vajalik"
+    },
+    "sla": "SLA",
+    "hours": "tundi",
+    "discrepanciesDetails": "Lahknevuste Detailid",
+    "severity": {
+      "high": "🔴 Kõrge Tõsidus",
+      "medium": "🟠 Keskmine Tõsidus",
+      "low": "🟡 Madal Tõsidus"
+    },
+    "verbalPromise": "Suuline Lubadus (kõnest)",
+    "contractTerm": "Lepingu Tingimus (PDF-ist)",
+    "impact": "Äriline Mõju",
+    "resolutionDetails": "Lahendus",
+    "resolvedBy": "Lahendas",
+    "resolvedAt": "Lahendatud",
+    "resolutionNotes": "Lahenduse Märkused"
+  },
+  "resolution": {
+    "title": "Uuenda Lahendust",
+    "status": "Lahenduse Staatus",
+    "inProgress": "Pooleli",
+    "resolved": "Lahendatud",
+    "acceptedRisk": "Aktsepteeritud Risk",
+    "notes": "Lahenduse Märkused",
+    "notesPlaceholder": "Kirjelda, kuidas see lahknevus lahendati (minimaalselt 20 tähemärki)...",
+    "notesHelp": "Nõutud on minimaalselt 20 tähemärki",
+    "notesTooShort": "Lahenduse märkused peavad olema vähemalt 20 tähemärki",
+    "submit": "Uuenda Lahendust",
+    "submitting": "Esitamine...",
+    "updateSuccess": "Lahendus edukalt uuendatud",
+    "updateFailed": "Lahenduse uuendamine ebaõnnestus"
+  },
+  "fields": {
+    "commission": "Komisjon %",
+    "campaign_type": "Kampaania Tüüp",
+    "campaign_duration": "Kampaania Kestus",
+    "tablet_included": "Tahvelarvuti Kaasas",
+    "tablet_model": "Tahvelarvuti Mudel",
+    "contract_length": "Lepingu Kestus"
+  }
+}

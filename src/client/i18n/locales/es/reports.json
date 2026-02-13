@@ -1,0 +1,15 @@
+{
+  "title": "Informes de Validación",
+  "subtitle": "Resumen del pipeline de validación (30 días)",
+  "statusBreakdown": "Desglose de Estado",
+  "mostMissingFields": "Campos Faltantes Más Comunes",
+  "dailyReport": { "title": "Informe de Hoy" },
+  "stats": {
+    "total": "Total Validaciones",
+    "passed": "Aprobadas",
+    "failed": "Fallidas",
+    "manualReview": "Revisión Manual",
+    "overrides": "Anulaciones",
+    "avgConfidence": "Confianza Media"
+  }
+}

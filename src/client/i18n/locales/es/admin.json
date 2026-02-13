@@ -1,0 +1,108 @@
+{
+  "page": { "title": "Panel de Administración", "subtitle": "Configuración y gestión del sistema" },
+  "nav": {
+    "dashboard": "Resumen",
+    "validationRules": "Reglas de Validación",
+    "users": "Gestión de Usuarios",
+    "exceptions": "Registro de Excepciones",
+    "workflow": "Configuración de Flujo",
+    "settings": "Ajustes del Sistema"
+  },
+  "stats": {
+    "totalMerchants": "Total Comercios",
+    "totalValidations": "Total Validaciones",
+    "totalAudits": "Total Auditorías",
+    "openExceptions": "Excepciones Abiertas",
+    "criticalExceptions": "Críticas (P1)"
+  },
+  "validationRules": {
+    "title": "Configuración de Reglas de Validación",
+    "subtitle": "Configura la Puerta Hard Gate Pre-Contrato (DT-001)",
+    "confidenceThreshold": "Umbral de Confianza IA (%)",
+    "confidenceHelp": "Las extracciones por debajo de este valor se envían a Sales Ops para revisión",
+    "mandatoryFields": "Campos Obligatorios",
+    "mandatoryHelp": "Estos campos deben estar presentes en toda extracción IA",
+    "minJustificationChars": "Mínimo de Caracteres para Justificación",
+    "salesOpsSlaHours": "SLA Sales Ops (horas)",
+    "notes": "Notas",
+    "saved": "Reglas guardadas correctamente",
+    "addField": "Agregar Campo",
+    "removeField": "Eliminar"
+  },
+  "users": {
+    "title": "Gestión de Usuarios",
+    "addUser": "Agregar Usuario",
+    "name": "Nombre",
+    "email": "Correo",
+    "role": "Rol",
+    "team": "Equipo",
+    "region": "Región",
+    "status": "Estado",
+    "active": "Activo",
+    "inactive": "Inactivo",
+    "deactivate": "Desactivar",
+    "edit": "Editar",
+    "actions": "Acciones",
+    "noUsers": "No se encontraron usuarios",
+    "createSuccess": "Usuario creado correctamente",
+    "deactivateConfirm": "¿Desactivar este usuario?"
+  },
+  "exceptions": {
+    "title": "Registro de Excepciones",
+    "severity": "Severidad",
+    "status": "Estado",
+    "type": "Tipo",
+    "merchant": "Comercio",
+    "message": "Mensaje de Error",
+    "createdAt": "Creado",
+    "resolveBtn": "Resolver",
+    "resolutionNotes": "Notas de Resolución",
+    "noExceptions": "No se encontraron excepciones",
+    "filters": { "all": "Todos", "open": "Abiertos", "resolved": "Resueltos" }
+  },
+  "workflow": {
+    "title": "Configuración de Flujo de Trabajo",
+    "subtitle": "Activa o desactiva pasos de automatización",
+    "steps": {
+      "autoValidation": "Ejecutar validación automáticamente tras subir transcripción",
+      "slackNotifications": "Notificaciones Slack para validaciones fallidas",
+      "emailNotifications": "Notificaciones email para cola de Sales Ops",
+      "dailyReports": "Reportes diarios de resumen de validación",
+      "autoAudit": "Ejecutar auditoría de contrato automáticamente tras subida"
+    },
+    "saved": "Configuración de flujo guardada"
+  },
+  "settings": {
+    "title": "Ajustes del Sistema",
+    "slack": "Configuración de Slack",
+    "slackWebhook": "URL Webhook de Slack",
+    "slackChannel": "Canal de Slack",
+    "email": "Configuración de Email (SMTP)",
+    "smtpHost": "Host SMTP",
+    "smtpPort": "Puerto SMTP",
+    "smtpUser": "Usuario SMTP",
+    "smtpFrom": "Dirección de Origen",
+    "ai": "Configuración de IA",
+    "manusApiUrl": "URL de API Manus",
+    "saved": "Ajustes guardados"
+  },
+  "notifications": {
+    "title": "Centro de Notificaciones",
+    "markRead": "Marcar como leído",
+    "markAllRead": "Marcar todo como leído",
+    "noNotifications": "Sin notificaciones",
+    "unreadOnly": "Solo no leídas",
+    "types": {
+      "VALIDATION_FAILED": "Validación Fallida",
+      "VALIDATION_PASSED": "Validación Aprobada",
+      "MANUAL_REVIEW_REQUIRED": "Revisión Manual Requerida",
+      "OVERRIDE_REQUESTED": "Anulación Solicitada",
+      "OVERRIDE_APPROVED": "Anulación Aprobada",
+      "AUDIT_DISCREPANCY": "Discrepancia de Auditoría",
+      "AUDIT_RESOLVED": "Auditoría Resuelta",
+      "PROFILE_CREATED": "Perfil Creado",
+      "PROFILE_UPDATED": "Perfil Actualizado",
+      "SYSTEM_ALERT": "Alerta del Sistema"
+    }
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "hardGate": {
+    "title": "Pre-Contract Validation",
+    "subtitle": "Hard Gate #1 - DT-001",
+    "status": {
+      "PASS": "Validation Passed",
+      "FAIL": "Validation Failed",
+      "MANUAL_REVIEW": "Requires Manual Review",
+      "OVERRIDE": "Overridden by Manager"
+    },
+    "statusDescription": {
+      "PASS": "All validation checks passed. Ready to proceed to contract generation.",
+      "FAIL": "Validation failed due to missing required fields. Cannot proceed.",
+      "MANUAL_REVIEW": "AI confidence below threshold. Sales Ops review required.",
+      "OVERRIDE": "Validation was overridden by an authorized manager."
+    },
+    "mandatoryFields": {
+      "title": "Mandatory Fields Check",
+      "allPresent": "All mandatory fields are present",
+      "missing": "Missing Required Fields",
+      "merchant_name": "Merchant Name",
+      "commission_percentage": "Commission Percentage",
+      "campaign_type": "Campaign Type",
+      "campaign_duration": "Campaign Duration",
+      "tablet_included": "Tablet Included",
+      "contract_length": "Contract Length",
+      "merchant_goals": "Merchant Goals (at least 1)",
+      "competitors": "Competitors (at least 1)"
+    },
+    "confidence": {
+      "title": "AI Confidence Score",
+      "threshold": "Threshold",
+      "actual": "Actual Score",
+      "meetsThreshold": "Meets Threshold",
+      "belowThreshold": "Below Threshold",
+      "lowConfidenceFields": "Low Confidence Fields",
+      "noLowConfidenceFields": "All fields have high confidence"
+    },
+    "nextAction": {
+      "PROCEED_TO_CONTRACT": "Proceed to Contract Generation",
+      "ROUTE_TO_SALES_OPS": "Route to Sales Ops for Review",
+      "BLOCK": "Blocked - Cannot Proceed",
+      "GENERATE_RETRY_INTEL": "Generate Retry Intelligence"
+    },
+    "actions": {
+      "executeValidation": "Execute Validation",
+      "override": "Override Validation",
+      "review": "Submit for Review",
+      "approve": "Approve & Proceed",
+      "reject": "Reject"
+    },
+    "override": {
+      "title": "Override Validation",
+      "subtitle": "Sales Manager Override",
+      "justificationLabel": "Justification (minimum 50 characters)",
+      "justificationPlaceholder": "Please provide detailed justification for overriding this validation...",
+      "justificationRequired": "Justification is required",
+      "justificationTooShort": "Justification must be at least 50 characters",
+      "confirmOverride": "Are you sure you want to override this validation?",
+      "overrideSuccess": "Validation successfully overridden",
+      "overrideError": "Failed to override validation"
+    },
+    "notifications": {
+      "validationPassed": "Validation passed successfully",
+      "validationFailed": "Validation failed: {{reason}}",
+      "routedToSalesOps": "Routed to Sales Ops for manual review (SLA: 2 hours)",
+      "overrideSubmitted": "Override request submitted successfully",
+      "validationExecuted": "Validation executed successfully"
+    },
+    "sla": {
+      "salesOps": "Sales Ops Review SLA: 2 hours",
+      "overdue": "Overdue by {{hours}} hours",
+      "dueIn": "Due in {{hours}} hours"
+    }
+  }
+}

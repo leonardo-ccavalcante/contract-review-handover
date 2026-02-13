@@ -1,0 +1,45 @@
+{
+  "page": { "title": "Panel del Gestor de Cuentas", "subtitle": "Tu pipeline de comercios de un vistazo" },
+  "kpi": {
+    "totalMerchants": "Total Comercios",
+    "pendingValidations": "Validaciones Pendientes",
+    "openAudits": "Auditorías Abiertas",
+    "profilesComplete": "Perfiles Completos",
+    "thisWeek": "esta semana",
+    "vsLastWeek": "vs semana pasada",
+    "complete": "completo"
+  },
+  "merchantList": {
+    "title": "Pipeline de Comercios",
+    "searchPlaceholder": "Buscar comercios...",
+    "columns": {
+      "merchant": "Comercio",
+      "status": "Estado",
+      "segment": "Segmento",
+      "city": "Ciudad",
+      "lastActivity": "Última Actividad",
+      "actions": "Acciones"
+    },
+    "status": {
+      "active": "Activo",
+      "pending": "Pendiente",
+      "blocked": "Bloqueado",
+      "go_live": "En Vivo"
+    },
+    "noMerchants": "No se encontraron comercios",
+    "viewProfile": "Ver Perfil",
+    "viewValidation": "Ver Validación"
+  },
+  "recentActivity": {
+    "title": "Actividad Reciente",
+    "noActivity": "Sin actividad reciente",
+    "viewAll": "Ver todo"
+  },
+  "quickActions": {
+    "title": "Acciones Rápidas",
+    "uploadTranscription": "Subir Transcripción",
+    "uploadAudio": "Subir Audio",
+    "uploadContract": "Subir Contrato",
+    "viewQueue": "Ver Cola"
+  }
+}

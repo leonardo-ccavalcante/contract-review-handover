@@ -1,0 +1,51 @@
+{
+  "app": {
+    "title": "Bolt Kaupmehe Valideerimine",
+    "subtitle": "Eellepingu Valideerimissüsteem"
+  },
+  "navigation": {
+    "dashboard": "Töölaud",
+    "queue": "Valideerimise Järjekord",
+    "manualReview": "Käsitsi Ülevaatus",
+    "contractAudit": "Lepingu Audit",
+    "merchantProfiles": "Kaupmeeste Profiilid",
+    "reports": "Aruanded",
+    "settings": "Seaded",
+    "upload": "Lae üles",
+    "admin": "Admin"
+  },
+  "actions": {
+    "save": "Salvesta",
+    "cancel": "Tühista",
+    "submit": "Esita",
+    "approve": "Kinnita",
+    "reject": "Keeldu",
+    "override": "Tühista",
+    "review": "Vaata Üle",
+    "close": "Sulge",
+    "refresh": "Värskenda",
+    "export": "Ekspordi",
+    "viewDetails": "Vaata Üksikasju"
+  },
+  "common": {
+    "loading": "Laadimine...",
+    "error": "Viga",
+    "success": "Edu",
+    "warning": "Hoiatus",
+    "info": "Informatsioon",
+    "noData": "Andmed puuduvad",
+    "searchPlaceholder": "Otsi...",
+    "filterBy": "Filtreeri",
+    "sortBy": "Sorteeri",
+    "date": "Kuupäev",
+    "status": "Staatus",
+    "merchant": "Kaupmees",
+    "confidence": "Kindlus"
+  },
+  "language": {
+    "select": "Vali Keel",
+    "english": "English",
+    "spanish": "Español",
+    "estonian": "Eesti"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "page": { "title": "Account Manager Dashboard", "subtitle": "Your merchant pipeline at a glance" },
+  "kpi": {
+    "totalMerchants": "Total Merchants",
+    "pendingValidations": "Pending Validations",
+    "openAudits": "Open Audits",
+    "profilesComplete": "Profiles Complete",
+    "thisWeek": "this week",
+    "vsLastWeek": "vs last week",
+    "complete": "complete"
+  },
+  "merchantList": {
+    "title": "Merchant Pipeline",
+    "searchPlaceholder": "Search merchants...",
+    "columns": {
+      "merchant": "Merchant",
+      "status": "Status",
+      "segment": "Segment",
+      "city": "City",
+      "lastActivity": "Last Activity",
+      "actions": "Actions"
+    },
+    "status": {
+      "active": "Active",
+      "pending": "Pending",
+      "blocked": "Blocked",
+      "go_live": "Go Live"
+    },
+    "noMerchants": "No merchants found",
+    "viewProfile": "View Profile",
+    "viewValidation": "View Validation"
+  },
+  "recentActivity": {
+    "title": "Recent Activity",
+    "noActivity": "No recent activity",
+    "viewAll": "View all"
+  },
+  "quickActions": {
+    "title": "Quick Actions",
+    "uploadTranscription": "Upload Transcription",
+    "uploadAudio": "Upload Audio",
+    "uploadContract": "Upload Contract",
+    "viewQueue": "View Queue"
+  }
+}
