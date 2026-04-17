@@ -1,6 +1,6 @@
-# Bolt Food Sales Handover Automation
+# Sales Handover Automation
 
-Sistema de auditoría y validación de contratos de ventas con IA para automatizar el proceso de handover de ventas de Bolt Food a Account Managers.
+Sistema de auditoría y validación de contratos de ventas con IA para automatizar el proceso de handover de ventas a Account Managers.
 
 ## 📋 Descripción
 
@@ -303,4 +303,4 @@ Para soporte técnico o consultas sobre el proyecto, contacta al equipo de desar
 
 ---
 
-**Desarrollado con ❤️ para Bolt Food**
+**Desarrollado con ❤️ por Leonardo Cavalcante**
